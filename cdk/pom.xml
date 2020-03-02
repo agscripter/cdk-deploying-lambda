@@ -18,16 +18,22 @@
             <artifactId>core</artifactId>
             <version>${awscdk.version}</version>
         </dependency>
-
+        
         <dependency>
             <groupId>software.amazon.awscdk</groupId>
-            <artifactId>apigateway</artifactId>
+            <artifactId>lambda</artifactId>
             <version>${awscdk.version}</version>
         </dependency>
 
         <dependency>
             <groupId>software.amazon.awscdk</groupId>
-            <artifactId>lambda</artifactId>
+            <artifactId>sns</artifactId>
+            <version>${awscdk.version}</version>
+        </dependency>
+
+        <dependency>
+            <groupId>software.amazon.awscdk</groupId>
+            <artifactId>sns-subscriptions</artifactId>
             <version>${awscdk.version}</version>
         </dependency>
 
